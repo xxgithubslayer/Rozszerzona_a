@@ -1,10 +1,15 @@
     #include <iostream>
+    #include <cstdlib>
+
     using namespace std;
 
     int main()
     {
-        cout << "czy my mamy napisac -";
-        cout << " Hello, World?";
+        cout << "czy my mamy napisac..." << endl;
+
+        system("pause");
+        system("cls");
+        cout << "Hello, World?";
 
         return 0;
     }
