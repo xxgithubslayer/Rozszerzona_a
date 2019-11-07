@@ -1,0 +1,33 @@
+    #include <iostream>
+    #include <cstdlib>
+    #include <windows.h>
+
+    using namespace std;
+    void no()
+    {
+        Sleep(1500);
+    }
+
+    int main()
+    {
+        cout << "czy my mamy napisac..." << endl;
+
+        system("pause");
+        system("cls");
+        cout << "Hello darkness my old friend" << endl;
+        no();
+        cout << "i've come to talk with you again" << endl;
+        no();
+        cout << "Because a vision softly creeping" << endl;
+        no();
+        cout << "Left its seeds while I was sleeping" << endl;
+        no();
+        cout << "And the vision that was planted in my brain" << endl;
+        no();
+        cout << "Still remains" << endl;
+        no();
+        cout << "Within the sound of silence" << endl;
+        no();
+
+        return 0;
+    }
